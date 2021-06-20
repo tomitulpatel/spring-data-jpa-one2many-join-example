@@ -15,11 +15,11 @@ import lombok.ToString;
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 public class OrderResponse {
 
-    private String name;
+    private String custname;
     private String productName;
 
-    public OrderResponse(String name, String productName) {
-        this.name = name;
+    public OrderResponse(String custname, String productName) {
+        this.custname = custname;
         this.productName = productName;
     }
 
